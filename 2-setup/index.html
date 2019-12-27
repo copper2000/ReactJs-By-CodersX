@@ -17,9 +17,13 @@
 
     <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
-    <script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <script type="text/babel">
       
         const Title = React.createElement('div', { className: 'title' }, 'React Tutorials by CodersX');
+
+        const Keyboard = <div className="test">This is a Keyboard</div>
 
         // param01 'div': type of element (get from html-element)
         // param02 { className: 'title' }: attribute of html, but in React it been call props. If u don't pass it in, you can set it to null

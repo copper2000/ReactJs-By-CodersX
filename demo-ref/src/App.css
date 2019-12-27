@@ -1,9 +1,5 @@
-.App {  
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid #bebebe;
-  border: none;
+.App {
+  text-align: center;
 }
 
 .App-logo {
@@ -17,25 +13,6 @@
   }
 }
 
-.App .Header {
-  padding: 10px 5px;
-  
-}
-.App .Header > input {
-  width: auto;
-  padding: 1px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 300;
-  font-size: 24px;
-  border: none;
-  margin-left: 5px;
-  border-bottom: 1px solid #EEE;
-}
-
-.App .Header input:focus {
-  outline: none;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -44,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;  
+  color: white;
 }
 
 .App-link {
